@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.env
+
+# Django
+*.log
+*.pot
+*.py[cod]
+*.so
+*.sqlite3
+db.sqlite3
+/media
+
+# Docker
+*.log
+*.pid
+*.gz
+*.sqlite3
+.env
+docker-compose.yml
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jenkins
+/workspace/
+
+# VS Code
+.vscode/
+
