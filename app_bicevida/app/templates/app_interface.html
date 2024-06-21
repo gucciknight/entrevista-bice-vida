@@ -1,14 +1,19 @@
 {% extends 'base.html' %}
 {% block content %}
-<body>
-    <div class="container">
-        <div class="insurance">
-            <h2>{{ insurance.name }}</h2>
-            <img src="{{ insurance.image }}" alt="{{ insurance.name }}">
-            <p>{{ insurance.description }}</p>
-            <p><strong>Price:</strong> {{ insurance.price }}</p>
+
+<div class="card">
+    <div class="card-body">
+        <img src="{{insurance.image}}" class="card-img-top" alt="imagen">
+        <div class="card-body">
+            <div class="data">
+                <h2>{{ insurance.name }}</h2>
+                <p>{{ insurance.description }}</p>
+                <h3><strong>Precio:</strong> {{ insurance.price }}</h3>
+            </div>
         </div>
     </div>
-</body>
+</div>
+
+
 </html>
 {% endblock %}
