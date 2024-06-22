@@ -11,5 +11,4 @@ Repositorio oficial de la opción 1 en las preguntas de desarrollo, creado por A
 
 
 3. **Deploy**
-    - Despliega la imagen Docker en Google Cloud.
-
+   Despliega la imagen Docker en Google Cloud.
