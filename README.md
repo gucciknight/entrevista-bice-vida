@@ -1,8 +1,7 @@
 # entrevista-bice-vida
 Repositorio oficial de la opción 1 en las preguntas de desarrollo, creado por Agustín Rodríguez
 
-###Ip de la página
-Se puede ingresar a la aplicación subida en la siguiente url
+### La ip de la página se puede ingresar a la aplicación subida en la siguiente url
 http://34.83.115.171:8000/
 
 ### Stages de Jenkinsfile
